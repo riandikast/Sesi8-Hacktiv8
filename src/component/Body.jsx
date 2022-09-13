@@ -9,7 +9,7 @@ function body(){
                   <div className='container-fluid py-5'>
                         <h1 className='display-5 fw-bold'>First Paragraph</h1>
                         <p className='col-md-8 fs-4'>Using series of utilities, you can create this jumbotron, just like the one in previous version of bootstrap, check out the examples below for how you  can remix and restyle it to your liking</p>
-                        <button className='btn btn-primary btn-lg' type='button' data-bs-toogle='modal' data-bs-target='#exampleModal'> Click here to show modal box</button>
+                        <button className='btn btn-primary btn-lg' type='button' data-bs-toggle='modal' data-bs-target='#exampleModal'> Click here to show modal box</button>
                   </div>
             </div>    
             
