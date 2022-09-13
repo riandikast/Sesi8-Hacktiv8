@@ -1,19 +1,19 @@
 
 import './App.css';
 import Body from './component/Body';
-import 'jquery/dist/jquery.min.js';
-
+import Header from './component/Header';
+import Footer from './component/Footer';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 
 function App() {
   return (
     <>
-      <header/>
+      <Header></Header>
       <div className="container">
         <Body></Body>
       </div>
-      <footer/>
+      <Footer></Footer>
     </>
    
   );
